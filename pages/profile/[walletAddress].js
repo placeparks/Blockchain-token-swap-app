@@ -9,7 +9,7 @@ import {
   } from "@chakra-ui/react"
   import { useAddress, useContract, useContractRead } from "@thirdweb-dev/react"
   import { TRANSFER_CONTRACT_ADDRESS } from "../../const/addresses"
-  import BalanceCard from "../../components/BalanceCard"
+  import BalanceCard from "../../Components/BalanceCard"
   
   export default function AccountPage() {
     const address = useAddress()
