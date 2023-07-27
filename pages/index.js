@@ -36,13 +36,13 @@ const Home = () => {
             </Stack>
           </Flex>
           <Box>
-            <MediaRenderer src={HERO_IMAGE_URL} height="100%" width="100%" />
+            <MediaRenderer src="main.png" height="100%" width="100%" />
           </Box>
         </Flex>
       </Flex>
       <SimpleGrid columns={2} spacing={4} mt={4}>
         <Flex>
-          <MediaRenderer src={FEATURES_IMAGE_URL} height="100%" width="80%" />
+          <MediaRenderer src="Coins.png" height="100%" width="80%" />
         </Flex>
         <Flex
           flexDirection={"column"}
